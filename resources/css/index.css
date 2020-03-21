@@ -1,0 +1,88 @@
+     .Crafts {
+         font-weight: Helvetica;
+         font-size: 100px;
+         font-weight: bold;
+         color: khaki;
+         text-align: center;
+         background-color: navajowhite;
+         background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+     }
+     
+     .Brushes {
+         font-weight: Helvetica;
+         font-size: 32px;
+         font-weight: bold;
+         color: white;
+         background-color: mediumspringgreen;
+     }
+     
+     .Border {
+         border-color: mediumvioletred;
+         border-style: solid;
+     }
+     
+     .Span,
+     .Span1,
+     .Span2 {
+         font-weight: Helvetica;
+         font-weight: bold;
+         color: blue;
+     }
+     
+     .Frame {
+         font-weight: Helvetica;
+         font-size: 32px;
+         font-weight: bold;
+         color: white;
+         background-color: lightcoral;
+     }
+     
+     .Paint {
+         font-weight: Helvetica;
+         font-size: 32px;
+         font-weight: bold;
+         color: white;
+         background-color: skyblue;
+     }
+     
+     h1,
+     h2,
+     h3,
+     p {
+         font-family: sans-serif;
+     }
+     
+     .kone img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 20%;
+     }
+     
+     .kone h3 {
+         text-align: center;
+     }
+     
+     .kone p {
+         text-align: center;
+     }
+     
+     .dominik img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 20%;
+     }
+     
+     .dominik h3 {
+         text-align: center;
+     }
+     
+     .dominik p {
+         text-align: center;
+     }
+     
+     .nicole {
+         color: white;
+         background-color: black;
+     }
