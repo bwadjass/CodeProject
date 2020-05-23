@@ -1,0 +1,71 @@
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background-color: transparent;
+	font-family: Helvetica, Arial, sans-serif;
+  	text-align: center;
+}
+
+#root {
+	position: relative; 
+	height: 100%; 
+	width: 100%;
+	padding-top: 10px;
+}
+
+#root div {
+	width: 100%;
+}
+
+ header {
+	background-color:#283e4a;
+	color: #ffffff; 
+	padding: .5%;
+	font-size: large;
+	text-align: left; 
+	width: 100%; 
+	position: fixed;                               
+	top: 0;	
+
+}
+
+
+
+img {
+	width: 550px;
+	height: 400px;
+	margin-top: 10%;
+}
+
+article {
+	padding: 10px;
+	margin: 10px;
+	background-color: #e1e9ee;
+	border-color: rgb(209, 255, 41);
+	border-style: solid;
+	border-width: 5px;
+}
+
+section {
+	display: inline-flex;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 6%;
+}
+
+article {
+	
+	flex: 1 200px;
+}
+
+footer {
+	background-color: black;
+	padding-top: .5%;
+	padding-bottom: .5%;
+	margin-top: 3%;
+	color: white;	
+}
