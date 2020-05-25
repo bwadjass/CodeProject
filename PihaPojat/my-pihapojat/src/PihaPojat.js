@@ -6,45 +6,48 @@ export class PihaPojat extends React.Component {
   render() {
     const src = this.props.src;
     return (
-      <div>
+      <body>
+
         <header>Suomen Pihapojat Oy</header>
+
+      <main>
+
+	<figure>
+          <img alt="Cannot be displayed" src={src} /> 
+        </figure>
         
         <section>
-          <img src={src} /> 
-        </section>
-        
-        <section>
 
-        <article>
+		<article>
 
-            <h2>Tervetuloa Internetsivuillemme!</h2>
+		    <h2>Tervetuloa Internetsivuillemme!</h2>
 
-            <p>Sivuiltamme löydät ajankohtaista tietoa yrityksestämme ja sen toiminnasta.
-                Yrityksen palvelut -sivulta saat tarkempaa tietoa tarjoamistamme palveluista.
-                Yhteyden meihin saat kätevästi puhelimitse tai yhteystietolomakkeen kautta.
+		    <p>Sivuiltamme löydät ajankohtaista tietoa yrityksestämme ja sen toiminnasta.
+		        Yrityksen palvelut -sivulta saat tarkempaa tietoa tarjoamistamme palveluista.
+		        Yhteyden meihin saat kätevästi puhelimitse tai yhteystietolomakkeen kautta.
 
-                Kiitoksia jo etukäteen mielenkiinnostanne yritystämme kohtaan.
-            </p>
+		        Kiitoksia jo etukäteen mielenkiinnostanne yritystämme kohtaan.
+		    </p>
 
-        </article>
+		</article>
 
-        <article>
-            <h2>Palvelut</h2>
+		<article>
+		    <h2>Palvelut</h2>
 
-            <p>
+		    <p>
 
-              Suomen Pihapojat Oy on ammattitaitoinen viherrakennusta tarjoava yritys Helsingissä. Toiminta kattaa alan töitä vuosien kokemuksella. 
-              Palvelemme asiakkaitamme pääasiallisesti Pääkaupunkiseudun alueella.
-              Ota yhteyttä, meiltä saatte aina asiantuntevaa ja osaavaa palvelua!.
-            </p>
+		      Suomen Pihapojat Oy on ammattitaitoinen viherrakennusta tarjoava yritys Helsingissä. Toiminta kattaa alan töitä vuosien kokemuksella. 
+		      Palvelemme asiakkaitamme pääasiallisesti Pääkaupunkiseudun alueella.
+		      Ota yhteyttä, meiltä saatte aina asiantuntevaa ja osaavaa palvelua!.
+		    </p>
 
-        </article>
-        
+		</article>
+		
         </section>
 
-        <footer>
+	</main>
 
-                
+        <footer>         
                 <strong>Suomen Pihapojat Oy</strong> <br/>
                 <strong>Yhteyshenkilö: </strong> Sylvester Ezeh. <br/>
                 <strong>Osoite: </strong>Kuusmiehentie 3 B 6 00690 Helsinki  <br/>
@@ -55,7 +58,7 @@ export class PihaPojat extends React.Component {
                 <strong>Toimiala: </strong> Viherrakennus
         </footer>
 
-      </div>
+      </body>
     );
   }
 }
