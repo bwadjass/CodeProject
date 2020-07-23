@@ -1,0 +1,43 @@
+//GET http://localhost:3001/api/persons
+
+
+//POST http://localhost:3001/api/persons
+ //Content-Type: application/json 
+
+ //{
+   //"name": "",
+   //"number": ""
+ //}
+
+
+
+DELETE http://localhost:3001/api/persons/5f1628f4cdbfd70004cecaf1
+
+
+//PUT  http://localhost:3001/api/persons/5f1365d094cb851cabf410a3
+//Content-Type: application/json
+
+//{
+  //"name": "Kayo Sila",
+  //"number":"00226-123456"
+//}
+
+
+
+
+
+//DELETE http://localhost:3001/api/notes/2
+
+
+
+ //POST http://localhost:3001/api/persons 
+ //Content-Type: application/json
+
+ //{
+  // "name":"Arto Hellas",
+   //"number": "1"
+ //}
+
+
+ 
+
